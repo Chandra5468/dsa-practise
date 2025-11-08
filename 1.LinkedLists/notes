@@ -1,0 +1,12 @@
+Why linked list would be better than an array.
+
+1. If you want to insert an element at start. You need not shift all element by to different memory address.
+    Ex: array [2,3,4,5]. If you want to add 7 to start of an array. You need to shift 2 , 3, 4, and 5 back. And make array like this [7,2,3,4,5].
+
+    But if you want to add an element to start of linked list. You only need to remove that element and add something else in that memory address.
+
+    2 - 3 - 4 - 5 - 7 . Add 9 to start of list. 9 - 3 - 4 - 5 - 7.
+
+2. Double Linked list.
+    This will be useful for adding and deleting element at the last.
+
